@@ -1,0 +1,18 @@
+# Local state and private credentials
+state/
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.log
+verified.json
+queue.json
+tmp/
+artifacts/
+downloads/
+node_modules/
+.DS_Store
